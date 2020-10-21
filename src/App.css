@@ -1,0 +1,31 @@
+
+.column {
+    top: 150px;
+}
+
+#button-color {
+    background-color: #db9833;
+}
+
+#button-color:hover {
+    background-color: #DFA045;
+}
+
+#nav {
+    background-color: #db9833;
+}
+
+/* h2.ui.header:hover {
+    background-color: #DFA045;
+} */
+
+/* div.ui.segment {
+    background-color: #5181A6;
+} */
+
+/* #note-cards {
+    background-color: #db9833;
+    color: black;
+    text-align: center;
+    display: inline-block;
+} */
