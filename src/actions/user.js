@@ -4,5 +4,3 @@
 //         user: user
 //     }
 // }
-
-// SAMPLE

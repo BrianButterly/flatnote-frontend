@@ -15,17 +15,69 @@
     background-color: #db9833;
 }
 
-/* h2.ui.header:hover {
-    background-color: #DFA045;
-} */
-
-/* div.ui.segment {
-    background-color: #5181A6;
-} */
-
-/* #note-cards {
-    background-color: #db9833;
-    color: black;
+/* .grid-container { */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+    /* padding: 10px; */
+    /* width: 500px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+/* } */
+  
+.grid-item {
+    border: 1px solid #db9833;
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
-    display: inline-block;
-} */
+    background-color: #FFFFFF;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow:  #db9833 1px 1px 1px 2px;
+    /* animation: mymove 5s infinite; */
+}
+
+.grid-item:hover {
+    background-color: #db9833;
+}
+
+#new {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow:  #db9833 4px 4px 4px 6px; */
+    animation: none;
+    margin-top: 40px
+}
+
+.show-card {
+    background-color: white;
+    width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:  #db9833 1px 1px 1px 3px;
+    /* animation: mymove 5s infinite;  */
+}
+
+@keyframes mymove {
+    50% {box-shadow: 1px 1px 30px 10px #fff3b0;}
+}
+
+div.ui.segment {
+    box-shadow:  #db9833 2px 2px 2px 3px;
+    animation: mymove 5s infinite;
+}
+
+.btn {
+    background-color: #db9833;
+}
+
+.btn:hover {
+    background-color: #DFA045;
+    cursor: pointer;
+}
+

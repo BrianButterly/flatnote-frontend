@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { fetchNotesSuccess } from '../actions/notes'
+import { Link } from 'react-router-dom'
+
 
 class Home extends React.Component {
 
@@ -23,12 +24,13 @@ class Home extends React.Component {
           return (   
             <div>
                 {notes.map(note => (
-                    <Link to="/show" style={{color: "black"}}>
-                        <div class="ui card" key={note.id}>
+                    <Link to={`/notes/${note.id}`} style={{color: "black"}}>
+                    <div class="grid-item" style={{color: "black"}}>
+                        <div key={note.id}>
                             <h3>{note.title}</h3>
-                            <h4>{note.body}</h4>
                         </div>
-                    </Link>
+                    </div>
+                </Link>
                 ))}
             </div>
         );
@@ -47,3 +49,4 @@ const mapDispatchToProps = {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)
+

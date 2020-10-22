@@ -19,7 +19,10 @@ class Navbar extends React.Component {
         </Link>
         <div className="right menu">
           <Link style={{color: "black"}} className="item" to='/login'>
-            Login 
+            Logout 
+          </Link>
+          <Link style={{color: "black"}} className="item" to='/new'>
+            New
           </Link>
           <Link style={{color: "black"}} className="item" to='/home'>
             Home

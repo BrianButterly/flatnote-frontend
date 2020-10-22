@@ -5,4 +5,9 @@ export const fetchNotesSuccess = (notes) => {
     }
 }
 
-//SAMPLE
+export const createNote = (note) => {
+    return {
+        type: 'CREATE_NOTE',
+        note: note
+    }
+}
