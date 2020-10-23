@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import { fetchNotesSuccess } from '../actions/notes'
 import { Link } from 'react-router-dom'
 
-
 class Home extends React.Component {
 
     componentDidMount(){

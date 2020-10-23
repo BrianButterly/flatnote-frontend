@@ -13,7 +13,7 @@
 
 #nav {
     background-color: #db9833;
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
     animation: mymove 5s infinite;
 }
   
@@ -81,4 +81,46 @@ div.ui.segment {
 .cont {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+body { 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+div.transition-group {
+    position: relative;
+}
+section.route-section {
+ position: absolute;
+ width: 100%;
+ top: 0;
+ left: 0;
 }

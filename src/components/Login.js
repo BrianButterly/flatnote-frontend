@@ -3,7 +3,6 @@ import { Button, Form, Grid, Segment } from 'semantic-ui-react';
 import { connect } from 'react-redux'
 import { fetchUserSuccess } from '../actions/user'
 
-
 class Login extends React.Component {
 
   state = {
