@@ -1,5 +1,4 @@
 
-
 const showNote = (note) => {
     return {
         type: "SHOW_NOTE",

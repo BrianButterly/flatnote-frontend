@@ -7,7 +7,6 @@ import Edit from './components/Edit'
 import Show from './components/Show'
 import Home from './components/Home'
 import NoMatch from './components/NoMatch'
-import Note from './components/Note'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -19,7 +18,6 @@ const App = () => {
         <Route path='/login' component={Login} />
         <Route path='/home' component={Home} />
         <Route path='/new' component={New} />
-        <Route exact path='/notes' component={Note} />
         <Route exact path='/edit/:id' component={Edit} />
         <Route path='/notes/:id' component={Show} />
         <Route exact path='/' component={Login} />

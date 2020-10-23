@@ -13,16 +13,9 @@
 
 #nav {
     background-color: #db9833;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    animation: mymove 5s infinite;
 }
-
-/* .grid-container { */
-    /* display: grid; */
-    /* grid-template-columns: auto auto auto; */
-    /* padding: 10px; */
-    /* width: 500px; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-/* } */
   
 .grid-item {
     border: 1px solid #db9833;
@@ -35,7 +28,7 @@
     margin-right: auto;
     border-radius: 5px;
     box-shadow:  #db9833 1px 1px 1px 2px;
-    /* animation: mymove 5s infinite; */
+    margin-top: 15px;
 }
 
 .grid-item:hover {
@@ -46,7 +39,6 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    /* box-shadow:  #db9833 4px 4px 4px 6px; */
     animation: none;
     margin-top: 40px
 }
@@ -60,7 +52,7 @@
     border-radius: 5px;
     padding: 10px;
     box-shadow:  #db9833 1px 1px 1px 3px;
-    /* animation: mymove 5s infinite;  */
+    margin-top: 50px;
 }
 
 @keyframes mymove {
@@ -81,3 +73,12 @@ div.ui.segment {
     cursor: pointer;
 }
 
+.bg {
+    background-color: #2a6592d0;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.cont {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

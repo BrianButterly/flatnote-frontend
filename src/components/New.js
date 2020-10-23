@@ -58,7 +58,7 @@ class New extends React.Component{
             </div>
         )
     }
-}//End of class
+}
 
 const mapDispatchToProps = {
     createNote 

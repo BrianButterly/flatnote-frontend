@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Form, FormDropdown, FormField, Grid, Segment } from 'semantic-ui-react'
+import { Button, Form, Segment } from 'semantic-ui-react'
 import { connect } from 'react-redux'
 import editNoteSuccess from '../actions/note'
 
